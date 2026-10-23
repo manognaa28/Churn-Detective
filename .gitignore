@@ -1,0 +1,13 @@
+@'
+# Local database
+data/churn.db
+
+# Python generated files
+__pycache__/
+*.pyc
+.venv/
+
+# Generated analysis outputs
+results/*
+!results/.gitkeep
+'@ | Set-Content -Encoding utf8 .gitignore
